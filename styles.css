@@ -66,3 +66,30 @@ header a {
 #gallery figcaption {
     color: pink;
 }
+
+#contacts input, 
+#contacts textarea {
+    width: 250px;           
+    padding: 10px;          
+    border: 1px solid gray; 
+    border-radius: 5px;     
+}
+
+#contacts button {
+    background-color: pink; 
+    color: black;           
+    padding: 10px 20px;     
+    cursor: pointer;        
+}
+
+#contacts button:hover {
+    background-color: gray; 
+}
+
+#contacts {
+    text-align: center;  
+}
+
+#contacts div {
+    margin: 10px;         
+}
