@@ -48,7 +48,11 @@ header a {
     color: pink;     
 }
 #gallery {
-    text-align: center;    /* ВИРІВНЮЄМО ВСІ КАРТИНКИ ПО ЦЕНТРУ СТОРІНКИ */
+    text-align: center;
+}
+
+#gallery figcaption {
+    color: pink;
 }
 
 #gallery figure {
@@ -61,10 +65,6 @@ header a {
     width: 250px;          
     border: 1px solid gray;
     padding: 20px;         
-}
-
-#gallery figcaption {
-    color: pink;
 }
 
 #contacts input, 
@@ -92,4 +92,23 @@ header a {
 
 #contacts div {
     margin: 10px;         
+}
+
+#contacts button {
+    margin-bottom: 30px; 
+}
+
+footer {
+    background-color: pink; 
+    text-align: center;     
+    padding: 20px;          
+}
+
+footer a {
+    color: gray;            
+    text-decoration: none;  
+}
+
+footer a:hover {
+    color: white;           
 }
