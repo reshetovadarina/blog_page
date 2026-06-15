@@ -35,13 +35,13 @@
     margin: 0 15px;     
 }
 
-.navigation-link {
+.navigation-menu .navigation-link {
     text-decoration: none;
     color: black;
     transition: color 0.3s ease;         
 }
 
-.navigation-link:hover {
+.navigation-menu .navigation-link:hover {
     color: white;
 }
 .about-section {
@@ -55,6 +55,11 @@
     width: 250px;        
     border-radius: 20px; 
     margin-bottom: 20px 0;  
+}
+
+.about-section > .about-description:first-of-type {
+    font-weight: bold;
+    color: #333;
 }
 
 .about-description {
