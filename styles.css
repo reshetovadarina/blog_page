@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-body {
+    background-color: #fffafb;
+}
+
 .heading-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -9,113 +19,163 @@
     font-weight: 400;
 }
 
-header {
+.main-header {
     background: pink;     
     padding: 20px;       
     color: #333;         
     text-align: center;   
 }
+.navigation-list {
+    list-style-type: none;
+    margin-top: 10px;
+}
 
-header li {
+.navigation-item {
     display: inline; 
     margin: 0 15px;     
 }
 
-header a {
+.navigation-link {
     text-decoration: none;
-    color: black;         
+    color: black;
+    transition: color 0.3s ease;         
 }
 
-#about {
+.navigation-link:hover {
+    color: white;
+}
+.about-section {
     max-width: 800px;     
     margin: 0 auto;        
     padding: 20px; 
     text-align: center;   
 }
 
-#about img {
+.about-avatar {
     width: 250px;        
     border-radius: 20px; 
-    margin-bottom: 20px;  
+    margin-bottom: 20px 0;  
 }
 
-#about p {
-    margin-bottom: 10px;
+.about-description {
+    margin-bottom: 15px;
 }
 
-#hobbies ul {
+.hobbies-section {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    padding: 0 20px;
+}
+
+.hobbies-list{
     list-style-type: square; 
+    padding-left: 20px;
 }
 
-#hobbies li {
-    margin-bottom: 15px;     
+.hobbies-item  {
+    margin-bottom: 15px;   
+    transition: color 0.3s ease;  
 }
 
-#hobbies li:hover {
-    color: pink;            
+.hobbies-item:hover {
+    color: #db7093;            
 }
-#hobbies a {
+.hobbies-link {
     text-decoration: none; 
-    color: pink;     
+    color: #db7093;     
 }
-#gallery {
+
+.hobbies-link:hover {
+    text-decoration: underline;
+}
+
+.gallery-section {
     text-align: center;
+    margin-bottom: 40px;
 }
 
-#gallery figcaption {
-    color: pink;
+.gallery-caption  {
+    color: #db7093;
+    margin-top: 10px;
 }
 
-#gallery figure {
+.gallery-card  {
     display: inline-block; 
     margin: 20px;         
     text-align: center;
+    vertical-align: top;
 }
 
-#gallery img {
+.gallery-image  {
     width: 250px;          
     border: 1px solid gray;
-    padding: 20px;         
+    padding: 10px;         
+    background-color: white;         
+}
+.contacts-section {
+    text-align: center;  
+    margin-bottom: 40px;
 }
 
-#contacts input, 
-#contacts textarea {
+.form-group {
+    margin: 15px;         
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
     width: 250px;           
     padding: 10px;          
     border: 1px solid gray; 
     border-radius: 5px;     
 }
 
-#contacts button {
+.form-textarea {
+    width: 250px;           
+    padding: 10px;          
+    border: 1px solid gray; 
+    border-radius: 5px;     
+    resize: vertical;
+    height: 100px;
+}
+
+.form-submit-btn {
     background-color: pink; 
     color: black;           
     padding: 10px 20px;     
     cursor: pointer;        
-    margin-bottom: 30px; 
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
-#contacts button:hover {
+.form-submit-btn:hover {
     background-color: gray; 
+    color: white;
 }
 
-#contacts {
-    text-align: center;  
-}
-
-#contacts div {
-    margin: 10px;         
-}
-footer {
+.main-footer {
     background-color: pink; 
     text-align: center;     
-    padding: 20px;          
+    padding: 30px 20px;          
 }
 
-footer a {
-    color: gray;            
+.footer-text {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: #555;            
     text-decoration: none;  
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
-footer a:hover {
+.footer-link:hover {
     color: white;           
 }

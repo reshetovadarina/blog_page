@@ -8,93 +8,93 @@
     <title>Про мене</title>
 </head>
 
-<body>
-    <header>
+<body class="page-body">
+    <header class="main-header">
         <h1 class="heading-text"> Решетова Дарина </h1>
-        <nav>
-            <ul class="body-text">
-                <li><a href="#about">Про мене</a></li>
-                <li><a href="#hobbies">Мої хобі</a></li>
-                <li><a href="#gallery">Галерея</a></li>
-                <li><a href="#contacts">Контакти</a></li>
+        <nav class="navigation-menu">
+            <ul class="navigation-list body-text">
+                <li class="navigation-item"><a class="navigation-link" href="#about">Про мене</a></li>
+                <li class="navigation-item"><a class="navigation-link" href="#hobbies">Мої хобі</a></li>
+                <li class="navigation-item"><a class="navigation-link" href="#gallery">Галерея</a></li>
+                <li class="navigation-item"><a class="navigation-link" href="#contacts">Контакти</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section id="about">
+    <main  class="main-content">
+        <section class="about-section" id="about">
             <h2 class="heading-text">Про мене</h2>
-            <img src="images/myphoto.jpg" alt="Моє фото">
-            <p class="body-text">Привіт! Мене звати Дарина, трішки розповім про себе.</p>
-            <p class="body-text">Я йду до своєї цілі, а саме стати веб-розробницею. Працювала smm-менеджером в компанії "Outsourcing
+            <img class="about-avatar" src="images/myphoto.jpg" alt="Моє фото">
+            <p class="body-text about-description">Привіт! Мене звати Дарина, трішки розповім про себе.</p>
+            <p class="body-text about-description ">Я йду до своєї цілі, а саме стати веб-розробницею. Працювала smm-менеджером в компанії "Outsourcing
                 team", а також в магазині техніки Apple "OnLime".</p>
-            <p class="body-text">Зараз навчаюсь в Pink Code на розробницю сайтів.</p>
+            <p class="body-text about-description">Зараз навчаюсь в Pink Code на розробницю сайтів.</p>
         </section>
 
-        <section id="hobbies">
+        <section id="hobbies" class="hobbies-section">
             <h2 class="heading-text">Мої хобі</h2>
-            <ul class="body-text">
-                <li>Читання книг</li>
-                <li>Подорожі</li>
-                <li>Заняття спортом: верхова їзда, падл, зараз займаюсь фізичними вправами вдома та хочу піти у зал</li>
-                <li>Граю в комп'ютерні ігри на
-                    <a href="https://store.steampowered.com/" target="_blank" rel="noopener">Steam</a>
+            <ul class=" hobbies-list body-text">
+                <li class="hobbies-item">Читання книг</li>
+                <li class="hobbies-item">Подорожі</li>
+                <li class="hobbies-item">Заняття спортом: верхова їзда, падл, зараз займаюсь фізичними вправами вдома та хочу піти у зал</li>
+                <li class="hobbies-item">Граю в комп'ютерні ігри на
+                    <a class="hobbies-link" href="https://store.steampowered.com/" target="_blank" rel="noopener">Steam</a>
                 </li>
-                <li>Подобається фотографувати</li>
+                <li class="hobbies-item">Подобається фотографувати</li>
             </ul>
         </section>
 
-        <section id="gallery">
+        <section id="gallery" class="gallery-section">
             <h2 class="heading-text">Галерея</h2>
 
-            <figure>
-                <img src="images/photo1.jpg" width="250" alt="Відпочинок з подругами" title="Відпочинок з подругами">
-                <figcaption class="body-text">Відпочинок з подругами</figcaption>
+            <figure class="gallery-card">
+                <img class="gallery-image"src="images/photo1.jpg" width="250" alt="Відпочинок з подругами" title="Відпочинок з подругами">
+                <figcaption class="gallery-caption body-text">Відпочинок з подругами</figcaption>
             </figure>
 
-            <figure>
-                <img src="images/photo2.jpg" width="250" alt="Улюблені солодощі" title="Тортики">
-                <figcaption class="body-text">Мій один з улюблених закладів, Цукерня Потоцьких в Хмельницькому</figcaption>
+            <figure class="gallery-card">
+                <img class="gallery-image" src="images/photo2.jpg" width="250" alt="Улюблені солодощі" title="Тортики">
+                <figcaption class="gallery-caption body-text">Мій один з улюблених закладів, Цукерня Потоцьких в Хмельницькому</figcaption>
             </figure>
 
-            <figure>
-                <img src="images/photo3.jpg" width="250" alt="Улюблені квіти" title="Білі троянди">
-                <figcaption class="body-text">Мої улюблені квіти</figcaption>
+            <figure class="gallery-card">
+                <img class="gallery-image" src="images/photo3.jpg" width="250" alt="Улюблені квіти" title="Білі троянди">
+                <figcaption class="gallery-caption body-text">Мої улюблені квіти</figcaption>
             </figure>
         </section>
 
-        <section id="contacts">
+        <section id="contacts" class="contacts-section">
             <h2 class="heading-text">Контакти</h2>
-            <form>
+            <form class="contacts-form">
 
-                <div>
-                    <label for="user-name">Ім'я:</label>
-                    <input type="text" id="user-name" name="name" required>
+                <div class="form-group">
+                    <label class="form-label body-text" for="user-name">Ім'я:</label>
+                    <input class="form-input body-text" type="text" id="user-name" name="name" required>
                 </div>
 
-                <div>
-                    <label for="user-email">Email:</label>
-                    <input type="email" id="user-email" name="email" required>
+                <div class="form-group">
+                    <label class="form-label body-text" for="user-email">Email:</label>
+                    <input class="form-input body-text" type="email" id="user-email" name="email" required>
                 </div>
 
-                <div>
-                    <label for="user-message">Повідомлення:</label>
-                    <textarea id="user-message" name="message" required></textarea>
+                <div class="form-group">
+                    <label class="form-label body-text" for="user-message">Повідомлення:</label>
+                    <textarea class="form-textarea body-text" id="user-message" name="message" required></textarea>
                 </div>
-                <button type="submit">Надіслати</button>
+                <button class="form-submit-btn body-text" type="submit">Надіслати</button>
             </form>
         </section>
     </main>
 
-    <footer>
-        <address class="body-text">
-            <p class="body-text">Контактна інформація: м.Хмельницький, Україна</p>
-            <p class="body-text">Я в соцмережах:
-                <a href="https://www.instagram.com/daryna_reshetova" target="_blank" rel="noopener">Профіль
+    <footer class="main-footer">
+        <address class="footer-address body-text">
+            <p class="footer-text">Контактна інформація: м.Хмельницький, Україна</p>
+            <p class="footer-text">Я в соцмережах:
+                <a class="footer-link" href="https://www.instagram.com/daryna_reshetova" target="_blank" rel="noopener">Профіль
                     instagram</a>
             </p>
         </address>
-        <p class="body-text">&copy; 2026 Дарина Решетова. Всі права захищені.</p>
+        <p class="footer-text body-text">&copy; 2026 Дарина Решетова. Всі права захищені.</p>
     </footer>
 </body>
 </html>
