@@ -79,12 +79,16 @@
 
 .hobbies-item  {
     margin-bottom: 15px;   
-    transition: color 0.3s ease;  
 }
 
-.hobbies-item:hover {
-    color: #db7093;            
+.hobbies-list .hobbies-item:nth-child(odd) {
+    color: #db7093;
 }
+
+.hobbies-list .hobbies-item:nth-child(even) {
+    color: #555555;
+}
+
 .hobbies-link {
     text-decoration: none; 
     color: #db7093;     
