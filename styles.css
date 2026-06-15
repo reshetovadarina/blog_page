@@ -44,6 +44,27 @@
 .navigation-menu .navigation-link:hover {
     color: white;
 }
+
+.section-title {
+    position: relative;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 3px;
+    background-color: #db7093;
+    border-radius: 2px;
+}
+
 .about-section {
     max-width: 800px;     
     margin: 0 auto;        
